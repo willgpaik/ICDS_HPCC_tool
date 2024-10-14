@@ -41,7 +41,7 @@ def plot_csv_data(csv_file):
         axes[i].set_title(key)
         axes[i].set_ylabel(y_labels[i])  # Set the y-label for each subplot
         axes[i].grid()
-        axes[i].legend()
+#        axes[i].legend()
         
         # Optionally set x-ticks for better readability
         axes[i].set_xticks(df.index)
